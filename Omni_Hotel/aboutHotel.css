@@ -1,0 +1,19 @@
+/*------------About us----------------*/
+.photographs1{
+  width: 900px; 
+  height: 400px;
+  margin-left: 210px;
+}
+.text1{
+text-align: center;
+text-shadow: 0.5px 0.5px grey;
+}
+.paragraf{
+  
+  line-height: 1.7;
+  font-size: 19px;
+  line-height: 1.2;
+  width:900px;
+  margin-left:210px;
+  font-family:'Alice';
+}

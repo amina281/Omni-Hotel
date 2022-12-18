@@ -1,0 +1,83 @@
+<DOCTYPE! html>
+<html>
+
+<head>
+<title>Omni hotel & resort </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-------------------------------------FOOTER SECTION-------------------------->
+<section id="footer">
+<div class="container">
+<div class="row">
+
+<div class="col-md-3">
+<img src="logo.jpg" class="footer-logo">
+<p>Each property celebrates the unique essence of its destination to give you a personalized experience with a thoughtfulness you'll 
+find only in the best hotels of the world.</p>
+</div>
+
+<div class="col-md-3">
+<h1> Features </h1>
+<p>5 Star Hotel</p>
+<p>Certified Staf</p>
+<p>Best Facilities</p>
+<p>Unique Places</p>
+</div>
+
+<div class="col-md-3">
+<h1> Quick Contact </h1>
+<p><i class="fa fa-phone-square"></i> +67 5794322</p>
+<p><i class="fa fa-envelope"></i> omni.resort@email.com</p>
+<p><i class="fa fa-home"></i> Bulevardi "Gjergj Fishta" </p>
+<p class="city"> Tirane, Albania</p>
+</div>
+
+<div class="col-md-3">
+<h1> Follow Us On </h1>
+<p><i class="fab fa-facebook-square"></i> Facebook </p>
+<p><i class="fab fa-youtube"></i> Youube </p>
+<p><i class="fab fa-linkedin-in"></i> Linkedin </p>
+<p><i class="fab fa-twitter-square"></i> Twitter </p>
+</div>
+</div> <hr>
+<p class="copyright">Made by <i class="fa fa-users"></i></p>
+
+<!-------------------------------------------------------------------------------------------Data---------------------------------------------------------------------->
+<section  id="right">
+<div class="datetime" ></div>
+</section>
+</p>
+<script >
+var currentdate = new Date();
+ 
+if(currentdate.getMinutes()<10)
+{"0"+currentdate.getMinutes();}
+
+var datetime = "Date:   " + currentdate.getDate() + "/"
+        + (currentdate.getMonth()+1)  + "/" 
+        + currentdate.getFullYear() + "   Time: "  
+        + currentdate.getHours() + ":"  
+        + currentdate.getMinutes() 
+    
+
+document.write(datetime); 
+</script>
+
+<!----------------------------------------------------Closing.Footer------------------------------------------>
+</div>
+</section>
+
+</body>
+</html>
